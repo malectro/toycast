@@ -1,4 +1,7 @@
-# React Boilerplate
+# Toycast
+
+## Info
+Toycast is a podcast-like feed for little pieces of software. Visit it at [http://toycast.com](http://toycast.com).
 
 ## Setup
 1. Install [NodeJS](http://nodejs.org).
@@ -13,6 +16,7 @@
 4. Run webpack dev server. `npm run hot`.
 5. Visit the site at [http://localhost:3001](http://localhost:3001).
 
+
 ## Implements
 1. React
 2. React Router
@@ -21,10 +25,12 @@
 5. an immutable, hoc-accessible store
 6. Flow
 
+
 ## Does Not Implement
 1. Flux or Redux
 2. isomorphic API access
 3. a testing framework like Jest
+
 
 ## TODO
 1. Fix flow errors
