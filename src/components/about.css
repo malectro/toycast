@@ -1,6 +1,18 @@
+@value green from 'src/styles/colors.css';
+
+
 .about {
   composes: page from 'src/styles/ui.css';
   display: block;
   align-self: center;
+  color: white;
+}
+
+.about a {
+  color: green;
+}
+
+.about a:hover {
+  text-decoration: underline;
 }
 
