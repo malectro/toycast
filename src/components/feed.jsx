@@ -32,11 +32,11 @@ export default withStore()(Feed);
 
 
 const Toy = ({toy: {name, text, image, url}}) => (
-  <Link className={css.toy} to={url}>
+  <a className={css.toy} href={url}>
     <div className={css.toyImg} style={bgImage(image)}>
       <div><span className={css.name}>{name}</span></div>
       <pre className={css.toyText}>{text.trim()}</pre>
     </div>
-  </Link>
+  </a>
 );
 

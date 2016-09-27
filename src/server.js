@@ -23,6 +23,7 @@ app.set('views', 'src/views');
 app.set('view engine', 'pug');
 
 app.use('/images', express.static(__dirname + '/images'));
+app.use('/toys', express.static(__dirname + '/toys'));
 
 if (!HOT_MODULE_REPLACEMENT) {
   app.use('/static', express.static('build/client'));

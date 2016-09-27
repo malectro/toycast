@@ -7,7 +7,7 @@ const store: Store = {
     '1': {
       id: 1,
       name: 'Crumbler',
-      url: '/crumbler',
+      url: '/toys/crumbler',
       image: '/images/crumbler.png',
       text: `Touch screen app to control an evolving set of oscillators
 
@@ -21,7 +21,7 @@ Press harder to control velocity.
     '2': {
       id: 2,
       name: 'Sequence',
-      url: '/sequence',
+      url: '/toys/sequence',
       image: '/images/sequence.png',
       text: `Large-scale, primitive sequencer with destortion and feedback
 
@@ -34,7 +34,7 @@ x position controls time.
     '3': {
       id: 3,
       name: 'Mixing Pool',
-      url: '/mixing-pool',
+      url: '/toys/mixing-pool',
       image: '/images/ripple.png',
       text: `Tappable ripple pool that mixes colors`,
     },
