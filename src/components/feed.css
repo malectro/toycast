@@ -1,0 +1,57 @@
+.bg {
+  padding-top: 40px;
+  flex: 1 0 auto;
+  justify-content: center;
+  background: black;
+}
+
+.scroll {
+  composes: page from 'src/styles/ui.css';
+  flex: 1 0 0;
+}
+
+.feed {
+  flex: 1 0 0;
+  flex-flow: column;
+  list-style: none;
+  padding: 0;
+}
+
+.toy {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.toy:hover .toyText {
+  visibility: visible;
+}
+
+.toy:hover .name {
+  color: rgb(0, 255, 126);
+}
+
+.toyImg {
+  flex-flow: column;
+  justify-content: space-between;
+  height: 400px;
+  background: gray center;
+  background-size: cover;
+}
+
+.name {
+  composes: bigTitle from 'src/styles/fonts.css';
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.toyText {
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 200;
+}
+

@@ -1,0 +1,6 @@
+.about {
+  composes: page from 'src/styles/ui.css';
+  display: block;
+  align-self: center;
+}
+

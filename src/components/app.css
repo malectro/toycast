@@ -1,0 +1,53 @@
+.top {
+  /* Font and Text Styles */
+  composes: text from 'src/styles/fonts.css';
+  display: flex;
+  min-height: 100%;
+  flex-flow: column;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.headerFixed {
+  composes: header from 'src/styles/fonts.css';
+  height: 60px;
+  background: white;
+}
+
+.header {
+  position: fixed;
+  height: 60px;
+  z-index: 2;
+  background: rgba(0, 255, 126, 1);
+  color: black;
+  justify-content: center;
+}
+
+.headerContainer {
+  composes: page from 'src/styles/ui.css';
+  flex: 1 0 0;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+}
+.title:hover {
+  color: #fff;
+}
+
+.titlePlaceholder {
+  composes: title;
+  margin: 0 20px;
+}
+
+.aboutLink {
+  margin-left: 20px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.aboutLink:hover {
+  color: rgba(0, 255, 126, 1);
+}
+
