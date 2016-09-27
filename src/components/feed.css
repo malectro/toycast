@@ -38,7 +38,7 @@
   flex-flow: column;
   justify-content: space-between;
   height: 400px;
-  background: gray center;
+  background: gray top center;
   background-size: cover;
 }
 
@@ -55,5 +55,6 @@
   margin: 0;
   font-size: 16px;
   font-weight: 200;
+  white-space: pre-wrap;
 }
 
