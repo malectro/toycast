@@ -5,7 +5,7 @@ import type {Store} from './store-types';
 const store: Store = {
   items: {
     '4': {
-      id: 1,
+      id: 4,
       name: 'Oscicube',
       url: '/toys/oscicube',
       image: '/images/cube.png',
@@ -50,6 +50,7 @@ x position controls time.
     },
   },
   feed: [
+    '4',
     '1',
     '2',
     '3',

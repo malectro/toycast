@@ -11,7 +11,6 @@ import css from './feed.css';
 
 import Animation from 'src/components/animation.jsx';
 
-
 type Props = {
   store: Store,
 };
