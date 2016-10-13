@@ -4,6 +4,16 @@ import type {Store} from './store-types';
 
 const store: Store = {
   items: {
+    '4': {
+      id: 1,
+      name: 'Oscicube',
+      url: '/toys/oscicube',
+      image: '/images/cube.png',
+      text: `Spinnable oscilating cube
+
+Drag and flick the cube horizontally
+      `,
+    },
     '1': {
       id: 1,
       name: 'Crumbler',
